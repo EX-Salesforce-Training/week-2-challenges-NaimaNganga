@@ -1,0 +1,19 @@
+public abstract class Class1 {
+     private String Sally;
+    
+    public virtual String GetStr(){
+        return Sally;
+    }
+    abstract void SetStr(String i);
+        
+    }
+    
+    public class Class2 extends Class1{
+  private String Tim;
+    
+    public void SetStr(String j){
+        
+    }
+    public override String GetStr(){
+        return this.Tim;
+    }
